@@ -57,11 +57,12 @@ footer>div>p {
 .card-container {
     display        : flex;
     flex-direction : row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top     : 74px;
 }
 
 .card {
-    width           : 60%;
+    width           : 30%;
     height          : 70px;
     margin          : 74px 50px 32px;
     padding         : 110px 0 46px;
@@ -106,11 +107,11 @@ footer>div>p {
     width         : 100%;
     height        : 144px;
     font-family   : Almarai;
-    font-size     : 29px;
+    font-size     : 26px;
     font-weight   : normal;
     font-stretch  : normal;
     font-style    : normal;
-    line-height   : 1.1;
+    line-height   : 1.2;
     letter-spacing: normal;
     text-align    : center;
     color         : #0d2243;
@@ -130,7 +131,7 @@ footer>div>p {
     border-radius   : 15px;
     box-shadow      : 0 0 15px 0 rgba(0, 0, 0, 0.1);
     background-color: var(--white);
-    padding         : 10px;
+    padding         : 45px 107px 30px;
 }
 
 .container-header {
@@ -168,7 +169,7 @@ footer>div>p {
 
 
 h1 {
-    width         : 100%;
+    width         : 98%;
     height        : 95px;
     margin        : 16px 16px 3px;
     font-family   : Almarai;
@@ -185,7 +186,7 @@ h1 {
 }
 
 h2 {
-    width         : 100%;
+    width         : 98%;
     height        : 113px;
     margin        : 3px 16px 20px;
     font-family   : Almarai;
@@ -218,7 +219,7 @@ h2 {
     background-color: var(--background-color);
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 1) {
 
     h1,
     h2,
@@ -226,13 +227,17 @@ h2 {
     .container,
     .card-container {
         position: relative;
-        top     : 660px;
+        top     : 731px;
     }
 
 
 
     .Astemed-Logo {
-        right: 30%;
+        right: 8%;
+    }
+
+    .icon-container>img {
+        margin: 10px;
     }
 }
 
@@ -315,7 +320,7 @@ h2 {
         height        : 52px;
         margin        : 0 0 8px;
         font-family   : Almarai;
-        font-size     : 35px;
+        font-size     : 31px;
         font-weight   : normal;
         font-stretch  : normal;
         font-style    : normal;
@@ -437,6 +442,7 @@ h2 {
     }
 }
 
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
     h1,
@@ -445,14 +451,23 @@ h2 {
     .container,
     .card-container {
         position: relative;
-        top     : 660px;
+        top     : 830px;
     }
 
-    header {
-        width: 100%;
+    .card {
+        width : 38%;
+        height: 115px;
+    }
+
+    .card-name {
+        width: 30%;
     }
 
     .Astemed-Logo {
-        right: 30%;
+        right: 10%;
+    }
+
+    .icon-container>img {
+        margin: 10px;
     }
 }
