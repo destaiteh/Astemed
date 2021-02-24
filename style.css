@@ -241,6 +241,8 @@ h2 {
     }
 }
 
+
+
 @media (max-width: 767px) {
     .Background {
         width              : 100%;
@@ -469,5 +471,11 @@ h2 {
 
     .icon-container>img {
         margin: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        height: 113px;
     }
 }
