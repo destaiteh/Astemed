@@ -2,12 +2,17 @@ html {
     margin: 0px;
 }
 
-body {
+.Background {
     width              : 100%;
     margin             : 0px;
     background-image   : url("Images/Background-desktop.png");
-    background-position: center;
+    background-position: top;
     background-repeat  : no-repeat;
+
+}
+
+body {
+    margin: 0px;
 }
 
 footer {
@@ -227,7 +232,7 @@ h2 {
     .container,
     .card-container {
         position: relative;
-        top     : 731px;
+        top     : 624px;
     }
 
 
@@ -253,10 +258,6 @@ h2 {
 
     }
 
-    body {
-        width           : 100%;
-        background-image: none;
-    }
 
     h1,
     h2,
@@ -453,7 +454,7 @@ h2 {
     .container,
     .card-container {
         position: relative;
-        top     : 830px;
+        top     : 640px;
     }
 
     .card {
