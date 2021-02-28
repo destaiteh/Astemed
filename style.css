@@ -7,7 +7,7 @@ html {
     margin: 0px;
 }
 
-.Background {
+.background {
     margin             : 0px;
     background-image   : url("Images/Background-desktop.png");
     background-position: top;
@@ -89,7 +89,6 @@ footer {
     color    : #0d2243;
     position : relative;
     bottom   : 150px;
-
 }
 
 .second>.card-content {
@@ -123,25 +122,25 @@ footer {
     color      : #269aa3;
 }
 
-h1 {
+.heading-first {
     margin   : 16px 0px 3px;
     font-size: 75px;
     color    : var(--blue);
 }
 
-h2 {
+.heading-second {
     margin     : 20px 16px 16px;
     font-size  : 40px;
     line-height: 1.5;
     color      : #0d2243;
 }
 
-.Astemed-Logo {
+.astemed-Logo {
     position: relative;
     right   : 12%;
 }
 
-.Rectangle-1 {
+.rectangle-1 {
     display         : flex;
     flex-direction  : row;
     justify-content : flex-end;
@@ -157,16 +156,16 @@ h2 {
     justify-content: center;
 }
 
-.Website,
-.Instagram,
+.website,
+.instagram,
 .facebook {
     margin: 10px;
 }
 
 @media screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 1) {
 
-    h1,
-    h2,
+    .heading-first,
+    .heading-second,
     footer,
     .container,
     .card-container {
@@ -174,18 +173,18 @@ h2 {
         top     : 624px;
     }
 
-    .Astemed-Logo {
+    .astemed-Logo {
         right: 8%;
     }
 }
 
 @media (max-width: 767px) {
-    .Background {
+    .background {
         background-image: url("Images/Background.png");
     }
 
-    h1,
-    h2,
+    .heading-first,
+    .heading-second,
     footer,
     .container,
     .card-container {
@@ -240,8 +239,8 @@ h2 {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
-    h1,
-    h2,
+    .heading-first,
+    .heading-second,
     footer,
     .container,
     .card-container {
@@ -258,7 +257,7 @@ h2 {
         width: 30%;
     }
 
-    .Astemed-Logo {
+    .astemed-Logo {
         right: 10%;
     }
 
@@ -266,6 +265,6 @@ h2 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) {
     .container {
-        height: 113px;
+        height: 50%;
     }
 }
