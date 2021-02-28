@@ -55,6 +55,7 @@ footer {
 }
 
 .card {
+    width        : 30%;
     height       : 70px;
     margin       : 74px 50px 32px;
     padding      : 110px 0 46px;
@@ -213,6 +214,7 @@ h2 {
     .card {
         height: 140px;
         margin: 74px 9px 32px;
+        width : 95%;
     }
 
     .card-container {
